@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: rgb(226, 143, 60);
+    box-shadow: 0 0 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+form input{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+form select{
+    padding: 8px;
+}
+form button{
+    padding: 8px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
